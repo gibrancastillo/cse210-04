@@ -1,3 +1,4 @@
+import random
 # TODO: Implement the Seeker class as follows...
 
 # 1) Add the class declaration. Use the following class comment.
@@ -17,7 +18,7 @@ class Seeker:
         Args:
             self (Seeker): An instance of Seeker.
         """
-        self._location = 0
+        self._location = random.randint(1, 1000)
        
 # 3) Create the get_location(self) method. Use the following method comment.
     def get_location(self):
